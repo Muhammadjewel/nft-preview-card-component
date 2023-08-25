@@ -264,3 +264,22 @@ only screen and (                min-resolution: 2dppx) {
     margin-bottom: 16px;
   }
 }
+
+@media only screen and (min-width: 500px) {
+  body {
+    font-size: 16px;
+  }
+
+  .card__heading {
+    margin-bottom: 16px;
+  }
+
+  .card__description {
+    margin-bottom: 24px;
+  }
+
+  .card__divider {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
