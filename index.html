@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>NFT preview card component</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -12,6 +17,32 @@
 </head>
 <body>
 
+
+  <main class="card">
+    <h1 class="card__heading"><a href="#">Equilibrium #3429</a></h1>
+    <a class="card__link" href="#">
+      <img class="card__img" src="img/nft-preview.jpg" alt="Equilibrium NFT preview" width="278" height="278" srcset="img/nft-preview.jpg 1x, img/nft-preview@2x.jpg 2x">
+      <span class="card__link-overlay">
+        <svg class="card__preview-icon" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h48v48H0z"/><path d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+      </span>
+    </a>
+    <p class="card__description">Our Equilibrium collection promotes balance and calm.</p>
+    <div class="card__price-time">
+      <span class="card__price">
+        <img class="card__price-icon" src="img/icon-ethereum.svg" alt="" width="11" height="18" aria-hidden="true">
+        <span class="card__price-text">0.041 ETH</span>
+      </span>
+      <span class="card__time">
+        <img class="card__time-icon" src="img/icon-clock.svg" alt="" width="16" height="16" aria-hidden="true">
+        <span class="card__time-text">3 days left</span>
+      </span>
+    </div>
+    <hr class="card__divider">
+    <div class="card__author-wrapper">
+      <img class="card__author-img" src="img/author.jpg" alt="Jules Wyvern" width="33" height="33" srcset="img/author.jpg 1x, img/author@2x.jpg 2x">
+      <span class="card__author-text">Creation of <a href="#">Jules Wyvern</a></span>
+    </div>
+  </main>
 
 
   <script src="js/main.js"></script>
