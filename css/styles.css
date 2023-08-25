@@ -270,6 +270,10 @@ only screen and (                min-resolution: 2dppx) {
     font-size: 16px;
   }
 
+  .card {
+    padding-bottom: 32px;
+  }
+
   .card__heading {
     margin-bottom: 16px;
   }
