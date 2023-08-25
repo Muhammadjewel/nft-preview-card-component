@@ -280,6 +280,6 @@ only screen and (                min-resolution: 2dppx) {
 
   .card__divider {
     margin-top: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
   }
 }
